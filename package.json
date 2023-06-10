@@ -1,0 +1,16 @@
+{
+  "name": "go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.go",
+  "scripts": {
+    "start": "go run .",
+    "start:exe": "main.exe",
+    "build": "go build .",
+    "dev": "air",
+    "set": "air init && go mod init && go get && go install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
